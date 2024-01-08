@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
 
+  openBlog(): void {
+    window.open("https://bloqku.com/", "_blank");
+  }
 }
